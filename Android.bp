@@ -15,12 +15,12 @@ cc_library_static {
     target: {
         linux: {
             sanitize: {
-                misc_undefined: ["integer"],
+                never: true,
             },
         },
         android: {
             sanitize: {
-                misc_undefined: ["integer"],
+                never: true,
             },
         },
         windows: {
